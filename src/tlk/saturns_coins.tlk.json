@@ -1,0 +1,77 @@
+{
+  "language": 0,
+  "entries": [
+    {
+      "id": 0,
+      "text": "Bad Strref"
+    },
+    {
+      "id": 4,
+      "text": " "
+    },
+    {
+      "id": 48500,
+      "text": "Coin"
+    },
+    {
+      "id": 48501,
+      "text": "Coin Stack"
+    },
+    {
+      "id": 48502,
+      "text": "Coin Purse"
+    },
+    {
+      "id": 48503,
+      "text": "A small piece of metal used as a currency."
+    },
+    {
+      "id": 48504,
+      "text": "A large stack of coins."
+    },
+    {
+      "id": 48505,
+      "text": "A small bag in which coins may be stored safely."
+    },
+    {
+      "id": 48506,
+      "text": "Human Currency"
+    },
+    {
+      "id": 48507,
+      "text": "Goblin Currency"
+    },
+    {
+      "id": 48508,
+      "text": "Elven Currency"
+    },
+    {
+      "id": 48509,
+      "text": "Custom Currency 3"
+    },
+    {
+      "id": 48510,
+      "text": "Custom Currency 4"
+    },
+    {
+      "id": 48511,
+      "text": "Custom Currency 5\n"
+    },
+    {
+      "id": 48512,
+      "text": "Custom Currency 6"
+    },
+    {
+      "id": 48513,
+      "text": "Custom Currency 7"
+    },
+    {
+      "id": 48514,
+      "text": "Custom Currency 8"
+    },
+    {
+      "id": 48515,
+      "text": "Custom Currency 9"
+    }
+  ]
+}

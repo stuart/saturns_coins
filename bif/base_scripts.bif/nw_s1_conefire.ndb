@@ -1,0 +1,112 @@
+NDB V1.0
+0000002 0000001 0000024 0000009 0000026
+n00 NW_I0_SPELLS
+N01 NW_S1_ConeFire
+s 03 vector
+sf f x
+sf f y
+sf f z
+f ffffffff ffffffff 003 v TrapDoElectricalDamage
+fp i
+fp i
+fp i
+f ffffffff ffffffff 003 i MyResistSpell
+fp o
+fp o
+fp f
+f ffffffff ffffffff 006 i MySavingThrow
+fp i
+fp o
+fp i
+fp i
+fp o
+fp f
+f ffffffff ffffffff 002 e0 CreateProtectionFromAlignmentLink
+fp i
+fp i
+f ffffffff ffffffff 000 e0 CreateDoomEffectsLink
+f ffffffff ffffffff 003 v RemoveSpellEffects
+fp i
+fp o
+fp o
+f ffffffff ffffffff 002 v RemoveSpecificEffect
+fp i
+fp o
+f ffffffff ffffffff 002 f GetSpellEffectDelay
+fp e2
+fp o
+f ffffffff ffffffff 002 f GetRandomDelay
+fp f
+fp f
+f ffffffff ffffffff 002 i GetScaledDuration
+fp i
+fp o
+f ffffffff ffffffff 002 e0 GetScaledEffect
+fp e0
+fp o
+f ffffffff ffffffff 003 i RemoveProtections
+fp i
+fp o
+fp i
+f ffffffff ffffffff 001 i GetSpellBreachProtection
+fp i
+f ffffffff ffffffff 001 v AssignAOEDebugString
+fp s
+f ffffffff ffffffff 000 v PlayDragonBattleCry
+f ffffffff ffffffff 001 i AmIAHumanoid
+fp o
+f ffffffff ffffffff 006 v spellsCure
+fp i
+fp i
+fp i
+fp i
+fp i
+fp i
+f ffffffff ffffffff 003 v DoSpellBreach
+fp o
+fp i
+fp i
+f ffffffff ffffffff 001 i GetDragonFearDC
+fp i
+f ffffffff ffffffff 000 i CalcNumberOfAttacks
+f ffffffff ffffffff 000 v RemoveTempHitPoints
+f ffffffff ffffffff 002 v RemoveEffectsFromSpell
+fp o
+fp i
+f 00000015 00000378 000 v main
+f 0000000d 00000015 000 v #loader
+v 00000017 00000370 00000000 i nHD
+v 00000032 00000370 00000004 i nDamage
+v 00000034 00000370 00000008 i nLoop
+v 00000054 00000370 0000000c i nDC
+v 0000007c 00000370 00000010 f fDelay
+v 0000010f 00000370 00000014 e2 lTargetLocation
+v 00000124 00000370 00000018 o oTarget
+v 00000126 00000370 0000001c e0 eCone
+v 00000128 00000370 00000020 e0 eVis
+l01 0000024 00000015 00000030
+l01 0000025 00000030 00000032
+l01 0000026 00000032 00000052
+l01 0000027 00000052 0000007a
+l01 0000028 0000007a 0000007c
+l01 0000029 0000007c 0000008c
+l01 0000031 00000092 000000a6
+l01 0000034 000000ac 000000ba
+l01 0000036 000000d0 000000f3
+l01 0000034 000000f3 00000107
+l01 0000038 0000010d 00000122
+l01 0000039 00000122 00000124
+l01 0000040 00000124 00000126
+l01 0000041 00000126 00000147
+l01 0000043 00000147 0000018c
+l01 0000045 0000018c 0000019f
+l01 0000047 0000019f 000001d2
+l01 0000050 000001d8 000001fc
+l01 0000052 000001fc 00000225
+l01 0000054 00000225 0000025c
+l01 0000056 0000025c 00000283
+l01 0000057 00000283 00000293
+l01 0000060 00000299 000002d9
+l01 0000061 000002d9 00000319
+l01 0000065 00000325 0000036a
+l01 0000067 00000376 00000378
