@@ -1,10 +1,11 @@
 This package is designed to be built using Nasher.
 https://github.com/squattingmonk/nasher
+You will have to configure the flags setting in nasher.cfg to point to your
+installation of NWN.
 
 I have wrapped calls to Nasher in a Makefile for convenience.
-To build do these things in the command line:
+To build do this in the command line:
 
-  make setup
   make all
 
 make erf, make hak, make module and make tlk all just call nasher.
