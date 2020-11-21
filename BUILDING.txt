@@ -1,0 +1,21 @@
+This package is designed to be built using Nasher.
+https://github.com/squattingmonk/nasher
+
+I have wrapped calls to Nasher in a Makefile for convenience.
+To build do these things in the command line:
+
+  make setup
+  make all
+
+make erf, make hak, make module and make tlk all just call nasher.
+
+make clean will remove any build artifacts for you.
+
+make readme will convert the README to html. You will need pandoc installed
+to do that.
+
+make release will create a release zip file. It takes the version number from
+nasher.cfg.
+
+make install copies all the files to their places in your NWN directory.
+You may have to change the directory name in the Makefile.
