@@ -88,13 +88,13 @@ currency information. An example .2da is provided in the .hak and is expected
 to be overridden by your own module's variant. Denomination values are all in
 cents (1/100GP).
 
-1. *The default currency only method.*
+###*The default currency only method.*
    1. Set the constant ELDO_FETCH_CURRENCIES_FROM_2DA in "eldo_inc_coins" to FALSE.
    2. Ensure you have coin item blueprints with ResRef and Tag "coin_default_0", "coin_default_1",
    "coin_default_2", "coin_default_3" and "coin_default_4".
    3. Set other configuration as desired (See the Configuration section below.)
 
-2. *The Module local variable method.*
+###*The Module local variable method.*
   1. Set the constant ELDO_FETCH_CURRENCIES_FROM_2DA in "eldo_inc_coins" to FALSE.
   2. Ensure you have coin item blueprints with ResRef "coin_default_0", "coin_default_1",
   "coin_default_2", "coin_default_3" and "coin_default_4". These should have the tag "eldo_coin".
@@ -111,32 +111,35 @@ cents (1/100GP).
       - int currency_xxx_value3  
       - int currency_xxx_value4
 
-  The value locals must increase in value or be 0.
+    The value locals must increase in value or be 0.
 
-  A currency with 5 denominations:
-        currency_xxx_value0 = 1
-        currency_xxx_value1 = 10
-        currency_xxx_value2 = 20
-        currency_xxx_value3 = 100
-        currency_xxx_value4 = 1000
+    A currency with 5 denominations:
 
-  A currency with only three denominations:
-        currency_xxx_value0 = 1
-        currency_xxx_value1 = 10
-        currency_xxx_value2 = 100
-        currency_xxx_value3 = 0
-        currency_xxx_value4 = 0
+          currency_xxx_value0 = 1
+          currency_xxx_value1 = 10
+          currency_xxx_value2 = 20
+          currency_xxx_value3 = 100
+          currency_xxx_value4 = 1000
 
-3. *The 2da Method*
+    A currency with only three denominations:
+
+          currency_xxx_value0 = 1
+          currency_xxx_value1 = 10
+          currency_xxx_value2 = 100
+          currency_xxx_value3 = 0
+          currency_xxx_value4 = 0
+
+###*The 2da Method*
+
   To use this successfully you need to know your way around tools to edit .2da files
   and the files contained in a .hak file. You may edit the file in the .hak and distribute that
   to users of your module or you might place it in your own module .hak.
   1. Set the constant ELDO_FETCH_CURRENCIES_FROM_2DA in "eldo_inc_coins" to FALSE.
   2. Ensure you have coin item blueprints with ResRef "coin_default_0", "coin_default_1",
-"coin_default_2", "coin_default_3" and "coin_default_4". These should have the tag "eldo_coin".
+  "coin_default_2", "coin_default_3" and "coin_default_4". These should have the tag "eldo_coin".
   3. Ensure you have coin item blueprints for each currency (where "xxx" is the currency tag)
-with ResRef "coin_xxx_0", "coin_xxx_1" etc. up to 4. These should have the tag "eldo_coin".
-You do not have to have all 5 denominations but they must start at 0 and be increasing.
+  with ResRef "coin_xxx_0", "coin_xxx_1" etc. up to 4. These should have the tag "eldo_coin".
+  You do not have to have all 5 denominations but they must start at 0 and be increasing.
   4. Create a .2da file (preferrably edit the supplied one!) with a row for each currency.
   The first row must be the default currency.
 

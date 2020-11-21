@@ -1,0 +1,6 @@
+# Ignore the nasher directory
+.nasher/
+
+# Ignore all the standard NWN stuff I had to import to get compilation to work.
+bif/
+build/
