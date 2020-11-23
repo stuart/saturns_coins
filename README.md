@@ -1,5 +1,5 @@
 
-# DR SATURN'S COINS SYSTEM
+# Dr Saturn's Coins System
 
 ## Status
 This should be regarded as still in "Beta". I have not completed
